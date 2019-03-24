@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   def students
     @students = Student.all
+    get 'students', to: 'static#index'
   end
 
 end
