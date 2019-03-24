@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   class students
   end
-  
+
 end
