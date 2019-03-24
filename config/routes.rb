@@ -1,9 +1,6 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-
-  def students
-    @students = Student.all
-    get 'students', to: 'static#index'
-  end
+  get 'students', to: 'static#index'
+  
 
 end
