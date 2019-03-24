@@ -6,6 +6,7 @@ class StudentsController < ApplicationController
   # protect_from_forgery with: :exception
 
   def students
+    render 'students/index'
     binding.pry
     @students = Student.all
   end
