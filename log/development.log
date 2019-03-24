@@ -179,3 +179,6 @@ Processing by StudentsController#index as HTML
 Completed 200 OK in 393ms (Views: 385.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/students" for 24.19.166.14 at 2019-03-24 21:22:20 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StudentsController#index as HTML
