@@ -1,7 +1,10 @@
-<div> <% @students.each do |student| %>
+<ol>
+   <% @students.each do |student| %>
 
-<h2> <%= student.first_name%> - <%= student.last_name %></h2>
+ 
+<li>  <%= student.first_name%> - <%= student.last_name %></li>
 
 <% end %>
 
-</div>
+</ol> 
+
